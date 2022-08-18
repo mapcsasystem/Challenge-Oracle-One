@@ -9,12 +9,12 @@ body {
     background: #E5E5E5;
 }
 
-.conteiner {
+.container {
     display: flex;
     flex-direction: row;
 }
 
-.conteiner-muneco {
+.container-muneco {
     display: flex;
     height: 580px;
     flex-direction: column;
@@ -29,7 +29,7 @@ body {
     border-radius: 32px;
 }
 
-.conteiner-muneco section img {
+.container-muneco section img {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
 }
 
-.conteiner-muneco__notFound {
+.container-muneco__notFound {
     width: 336px;
     height: 58px;
     font-family: 'Inter';
@@ -55,7 +55,7 @@ body {
     flex-grow: 0;
 }
 
-.conteiner-muneco__enciptDecript {
+.container-muneco__enciptDecript {
     width: 336px;
     height: 48px;
     font-family: 'Inter';

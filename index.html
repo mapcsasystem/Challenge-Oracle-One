@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div>
+            <nav class="nav-logo">
+                <img class="logo" width="31" height="48" src="assets/logo.png" alt="Logo">
+            </nav>
+
+
+            <section class="section-textarea">
+                <textarea type="text" name="textArea" id="textArea" rows="4" cols="50" placeholder="Ingrese texto aquí"
+                    value=""></textarea>
+            </section>
+
+            <section class="section-buttons">
+                <div class="section-buttons__notes">
+                    <img src="assets/Vector.png" width="16" height="16" />
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="section-buttons__buttons">
+                    <button class="button-encriptar" id="button-encriptar">Encriptar</button>
+                    <button class="button-desencriptar" id="button-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+        </div>
+        <div class="conteiner-muneco">
+            <section>
+                <img width="236" height="204" src="assets/muneco.png" alt="muneco">
+                <p class="conteiner-muneco__notFound">Ningún mensaje fue encontrado</p>
+                <p class="conteiner-muneco__enciptDecript">Ingresa el texto que desees encriptar o desemcriptar</p>
+                <button class="button-copyText" id="button-copyText">Copiar texto</button>
+            </section>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

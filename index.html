@@ -14,38 +14,52 @@
 </head>
 
 <body>
-    <div class="container">
-        <div>
-            <nav class="nav-logo">
-                <img class="logo" width="31" height="48" src="assets/logo.png" alt="Logo">
-            </nav>
+    <header class="header">
+        <img src="assets/logo.png" alt="Logo">
+    </header>
+    <main class="container">
 
-
-            <section class="section-textarea">
-                <textarea type="text" name="textArea" id="textArea" rows="4" cols="50" placeholder="Ingrese texto aquí"
-                    value=""></textarea>
-            </section>
-
-            <section class="section-buttons">
-                <div class="section-buttons__notes">
-                    <img src="assets/Vector.png" width="16" height="16" />
+        <section class="encriptar">
+            <div>
+                <textarea name="encriptar" id="encriptar" cols="40" rows="6"
+                    placeholder="Ingresa el texto aquí"></textarea>
+            </div>
+            <div>
+                <div class="encriptar-parrafo">
+                    <span>
+                        <img src="assets/vector.png" alt="vector">
+                    </span>
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
-                <div class="section-buttons__buttons">
-                    <button class="button-encriptar" id="button-encriptar">Encriptar</button>
-                    <button class="button-desencriptar" id="button-desencriptar">Desencriptar</button>
+                <div class="encriptar-button">
+                    <button type="button" class="button-encriptar">Encriptar</button>
+                    <button type="button" class="button-desencriptar">Desencriptar</button>
                 </div>
-            </section>
-        </div>
-        <div class="container-muneco">
-            <section>
-                <img width="236" height="204" src="assets/muneco.png" alt="muneco">
-                <p class="container-muneco__notFound">Ningún mensaje fue encontrado</p>
-                <p class="container-muneco__enciptDecript">Ingresa el texto que desees encriptar o desemcriptar</p>
-                <button class="button-copyText" id="button-copyText">Copiar texto</button>
-            </section>
-        </div>
-    </div>
+            </div>
+        </section>
+
+
+        <section class="copiar">
+            <div class="display-none" id="copia-text-area">
+                <textarea  class="display-none;" name="copia" id="copia" cols="18" rows="8"></textarea>
+            </div>
+            <div>
+                <img src="assets/muneco.png" alt="Logo">
+            </div>
+            <div class="copiar-parrafo1">
+                Ningún mensaje fue encontrado
+            </div>
+            <div class="copiar-parrafo2">
+                Ingresa el texto que desees encriptar o desencriptar
+            </div>
+            <div class="copiar-button" id="copia-button">
+                <button type="button" class="button-copiar display-none">Copiar mensaje</button>
+            </div>
+        </section>
+    </main>
+
+
+
     <script src="js/index.js"></script>
 </body>
 

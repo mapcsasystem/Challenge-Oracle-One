@@ -21,8 +21,8 @@
 
         <section class="encriptar">
             <div>
-                <textarea name="encriptar" id="encriptar" cols="40" rows="6"
-                    placeholder="Ingresa el texto aquí"></textarea>
+                <textarea id="encriptar" cols="40" rows="6"
+                    placeholder="Ingresa el texto aquí"  onkeypress="return (event.charCode >= 97 && event.charCode <= 122) ||  event.charCode===32 || event.charCode == 8 || event.charCode == 46 || event.charCode == 32"></textarea>
             </div>
             <div>
                 <div class="encriptar-parrafo">

@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -33,8 +33,10 @@
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
                 <div class="encriptar-button">
-                    <button type="button" class="button-encriptar">Encriptar</button>
-                    <button type="button" class="button-desencriptar">Desencriptar</button>
+                    <button type="button" onclick="encriptar()" class="button-encriptar"
+                        id="button-encriptar">Encriptar</button>
+                    <button type="button" onclick="desencriptar()" class="button-desencriptar"
+                        id="button-desencriptar">Desencriptar</button>
                 </div>
             </div>
         </section>
@@ -44,20 +46,27 @@
             <div id="copia-text-area">
                 <textarea id="copia-textarea" readonly></textarea>
             </div>
-            <div>
+            <div id="muneco">
                 <img src="assets/muneco.png" alt="Logo">
             </div>
-            <div class="copiar-parrafo1">
+            <div class="copiar-parrafo1" id="copiar-parrafo1">
                 Ningún mensaje fue encontrado
             </div>
-            <div class="copiar-parrafo2">
+            <div class="copiar-parrafo2" id="copiar-parrafo2">
                 Ingresa el texto que desees encriptar o desencriptar
             </div>
             <div class="copiar-button " id="copia-button">
-                <button type="button" class="button-copiar">Copiar mensaje</button>
+                <button type="button" class="button-copiar" id="button-copiar" onclick="copyEncriptar()">Copiar
+                    mensaje</button>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div id="copyright">
+            &copy; - Miguel Angel Pérez Contreras
+        </div>
+    </footer>
 
 
 

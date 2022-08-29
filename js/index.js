@@ -18,16 +18,10 @@
 
 // const textarea1 = document.getElementById('encriptar');
 
-// textarea1.addEventListener('keyup', updateValue);
+// textarea1.addEventListener('onkeypress', updateValue);
 
-// function updateValue(e) {
+// function updateValue(event) {
 
-//     console.log(e);
-//     if(e.keyCode>=97 && e.keyCode<=122){
-//          console.log("entre");
-//     }else{
-//         console.log("no entre");
-//         return e.target.value
-//     }
+//     return (event.charCode >= 97 && event.charCode <= 122) ||  event.charCode===32 || event.charCode == 8 || event.charCode == 46 || event.charCode == 32
 //     // if(e.)
 // }

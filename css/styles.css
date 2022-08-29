@@ -55,6 +55,7 @@ body {
     border: 0px;
     resize: none;
     margin: 20px 20px;
+    text-transform: lowercase;
 }
 
 .encriptar textarea::placeholder {

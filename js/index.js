@@ -63,7 +63,11 @@ function encriptar() {
 }
 
 function desencriptar() {
-    let text = copiaTextAreaValue.value;
+    if (encriptarTextarea.value.length === 0) {
+        alert("Inserta un valor.");
+        return null;
+    }
+    let text= encriptarTextarea.value;
     if (text.includes('ai')) {
         text = text.replaceAll('ai', 'a');
     }
@@ -84,6 +88,12 @@ function desencriptar() {
 
     encriptarTextarea.value = text;
     copiaTextAreaValue.value = text;
+    copiaTextArea.style.display = "block"
+    copiaTextAreaValue.style.display = "block"
+    buttonCopiar.style.display = "block";
+    copiarParrafo1.style.display = "none";
+    copiarParrafo2.style.display = "none";
+    muneco.style.display = "none";
 }
 
 

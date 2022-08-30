@@ -27,7 +27,6 @@ body {
 }
 
 .header {
-    /* position: absolute; */
     margin-top: 24px;
     margin-left: 16px;
 }
@@ -191,7 +190,6 @@ body {
 }
 
 
-/* @media (min-width: 576px) {} */
 
 @media (min-width: 768px) {
 
@@ -390,7 +388,3 @@ body {
 
 
 }
-
-/* @media (min-width: 1200px) {}
-
-@media (min-width: 1400px) {} */

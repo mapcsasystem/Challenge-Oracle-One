@@ -10,14 +10,13 @@ body {
     background: #E5E5E5;
 }
 
-#copyright{
+#copyright {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 0px;
-
+    margin-top: 20px;
 }
 
 .container {
@@ -40,20 +39,20 @@ body {
 
 
 .encriptar {
- margin-top: 0px 0px;
+    /* background: blue; */
 
 }
 
 .encriptar textarea {
     width: 85%;
-    height: 300px;
+    height: 451px;
     background: #E5E5E5;
     font-weight: 400;
     font-size: 32px;
     color: #0A3871;
     border: 0px;
     resize: none;
-    margin: 0px 0px;
+    margin: 20px 20px;
     text-transform: lowercase;
 }
 
@@ -72,7 +71,7 @@ body {
     font-size: 12px;
     line-height: 150%;
     color: #495057;
-    margin-top: 10px;
+    margin: 20px 20px;
 }
 
 .encriptar-parrafo span {
@@ -84,7 +83,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
 }
 
 .button-encriptar {
@@ -256,7 +254,7 @@ body {
         margin-top: 40px;
         margin-left: 84px;
     }
-    
+
     .header img {
         width: 48px;
         height: 44px;
@@ -274,14 +272,14 @@ body {
         flex-direction: column;
         justify-content: space-between;
         width: 70%;
-        margin-top: 0px  0px;
+        margin-top: 50px;
         margin-left: 240px;
         margin-right: 20px;
     }
 
     .encriptar textarea {
         width: 98%;
-        height: 300px;
+        height: 351px;
         border: 0px;
         resize: none;
     }
@@ -289,7 +287,6 @@ body {
 
 
     .encriptar-parrafo {
-        margin: 0px 0px;
         display: flex;
         flex-direction: row;
         margin-left: 60px;
@@ -297,8 +294,9 @@ body {
         font-size: 12px;
         line-height: 150%;
         color: #495057;
+        margin: 0px 0px;
         opacity: 0.8;
-        margin-top: 10px;
+        margin-top: 0px;
 
     }
 
@@ -310,13 +308,12 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .button-encriptar {
         width: 328px;
         height: 67px;
-        margin-top: 10px;
     }
 
     .button-desencriptar {
@@ -375,14 +372,9 @@ body {
     .copiar-parrafo2 {
         width: 336px;
         height: 48px;
+        margin-top: 0px;
     }
 
-
-    .encriptar-button {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
 
     .button-copiar {
         padding: 24px;
@@ -396,6 +388,7 @@ body {
         font-size: 16px;
         color: #0A3871;
         margin-left: 28px;
+        margin-bottom: 10px;
         display: none;
     }
 
